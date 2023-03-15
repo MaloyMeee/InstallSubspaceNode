@@ -90,3 +90,6 @@ sudo systemctl restart subspaced
 
 Проверяем логи
 >sudo journalctl -fu subspaced --no-hostname -o cat
+
+Поблагодарить автора:
+USDT BEP-20: 0x55428d436fc763180a8a757beeb745ea91ac3118
