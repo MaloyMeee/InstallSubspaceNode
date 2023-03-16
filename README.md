@@ -91,5 +91,14 @@ sudo systemctl restart subspaced
 Проверяем логи
 >sudo journalctl -fu subspaced --no-hostname -o cat
 
+Изменения размера плота
+1) Переходим в каталог /root/.config/subspace-cli/
+2) Вводим команду
+>nano settings.toml
+
+3) Прописываем нужный размер плота
+4) Сохраняемся нажатием в такой последовательности ctrl+x, y, enter
+
+
 Поблагодарить автора:
 USDT BEP-20: 0x55428d436fc763180a8a757beeb745ea91ac3118
